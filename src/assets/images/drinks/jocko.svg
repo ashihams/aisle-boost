@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jockoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d3436"/>
+      <stop offset="45%" style="stop-color:#636e72"/>
+      <stop offset="55%" style="stop-color:#636e72"/>
+      <stop offset="100%" style="stop-color:#2d3436"/>
+    </linearGradient>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#CCC"/>
+      <stop offset="50%" style="stop-color:#EEE"/>
+      <stop offset="100%" style="stop-color:#CCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main can body -->
+  <path d="M50 50 
+           Q45 150 50 260 
+           L150 260 
+           Q155 150 150 50 Z" 
+        fill="url(#jockoGrad)"/>
+  
+  <!-- Left shadow -->
+  <path d="M50 50 
+           Q45 150 50 260" 
+        stroke="#00000033" 
+        stroke-width="10" 
+        fill="none"/>
+  
+  <!-- Right highlight -->
+  <path d="M150 50 
+           Q155 150 150 260" 
+        stroke="#ffffff33" 
+        stroke-width="10" 
+        fill="none"/>
+
+  <!-- Can top -->
+  <ellipse cx="100" cy="50" rx="50" ry="8" fill="url(#topGrad)"/>
+  <path d="M50 50 L50 45 C50 38 150 38 150 45 L150 50" fill="#DDD"/>
+  
+  <!-- Pull tab -->
+  <path d="M95 43 L105 43 L103 40 L97 40 Z" fill="#AAA"/>
+  
+  <!-- Jocko Logo -->
+  <g transform="translate(100, 130)">
+    <!-- JOCKO text -->
+    <text x="0" y="0"
+          font-family="Arial"
+          font-size="24"
+          fill="white"
+          text-anchor="middle"
+          font-weight="bold"
+          letter-spacing="-1">JOCKO</text>
+          
+    <!-- DISCIPLINE EQUALS FREEDOM text -->
+    <text x="0" y="35"
+          font-family="Arial"
+          font-size="12"
+          fill="white"
+          text-anchor="middle"
+          letter-spacing="1">DISCIPLINE</text>
+    <text x="0" y="50"
+          font-family="Arial"
+          font-size="12"
+          fill="white"
+          text-anchor="middle"
+          letter-spacing="1">EQUALS</text>
+    <text x="0" y="65"
+          font-family="Arial"
+          font-size="12"
+          fill="white"
+          text-anchor="middle"
+          letter-spacing="1">FREEDOM</text>
+  </g>
+  
+  <!-- Bottom rim -->
+  <path d="M50 260 C50 268 150 268 150 260" fill="#00000022"/>
+</svg> 

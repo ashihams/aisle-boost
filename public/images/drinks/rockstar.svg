@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="50%" style="stop-color:#FFC107"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#CCC"/>
+      <stop offset="50%" style="stop-color:#EEE"/>
+      <stop offset="100%" style="stop-color:#CCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main can body -->
+  <path d="M50 50 
+           Q45 150 50 260 
+           L150 260 
+           Q155 150 150 50 Z" 
+        fill="#1a1a1a"/>
+  
+  <!-- Top gold band -->
+  <path d="M50 50 Q45 70 50 90 L150 90 Q155 70 150 50" fill="url(#goldGrad)"/>
+  
+  <!-- Bottom gold band -->
+  <path d="M50 220 Q45 240 50 260 L150 260 Q155 240 150 220" fill="url(#goldGrad)"/>
+
+  <!-- Can top -->
+  <ellipse cx="100" cy="50" rx="50" ry="8" fill="url(#topGrad)"/>
+  <path d="M50 50 L50 45 C50 38 150 38 150 45 L150 50" fill="#DDD"/>
+  
+  <!-- Pull tab -->
+  <path d="M95 43 L105 43 L103 40 L97 40 Z" fill="#AAA"/>
+  
+  <!-- Large center star -->
+  <g transform="translate(100, 130)">
+    <path d="M0 -35 L10 -11 L35 -11 L15 5 L25 28 L0 13 L-25 28 L-15 5 L-35 -11 L-10 -11 Z"
+          fill="url(#goldGrad)"
+          stroke="#1a1a1a"
+          stroke-width="1"/>
+  </g>
+
+  <!-- ROCKSTAR text -->
+  <text x="100" y="180"
+        font-family="Arial"
+        font-size="14"
+        fill="url(#goldGrad)"
+        text-anchor="middle"
+        font-weight="bold">ROCKSTAR</text>
+  
+  <!-- Bottom rim -->
+  <path d="M50 260 C50 268 150 268 150 260" fill="#00000022"/>
+</svg> 
