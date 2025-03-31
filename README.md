@@ -1,53 +1,52 @@
-Aisle Boost 🚀
+# Aisle Boost 🚀
 
-Revolutionizing the Shopping Experience in 3D! 🛒
+## Revolutionizing the Shopping Experience in 3D! 🛒
 
-Welcome to Aisle Boost, your gateway to the future of online shopping! Experience the thrill of a fully immersive 3D vending machine for energy drinks, where you can interact with products in a lifelike virtual environment.
+Welcome to **Aisle Boost**, your gateway to the future of online shopping! Experience the thrill of a **fully immersive 3D vending machine for energy drinks**, where you can interact with products in a lifelike virtual environment.
 
-🔗 Live Demo: Aisle Boost
+🔗 **Live Demo:** [Aisle Boost](https://aisleboost.vercel.app/)
 
-🎯 Key Features
+## 🎯 Key Features
 
-✅ 3D Energy Drink Vending Machine – A hyper-realistic vending experience!
-✅ Smooth & Interactive UI – Click, grab, and purchase with ease.
-✅ Seamless UX – Optimized for a fun and engaging interaction.
-✅ Fast & Lightweight – Built for speed and performance.
+✅ **3D Energy Drink Vending Machine** – A hyper-realistic vending experience!  
+✅ **Smooth & Interactive UI** – Click, grab, and purchase with ease.  
+✅ **Seamless UX** – Optimized for a fun and engaging interaction.  
+✅ **Fast & Lightweight** – Built for speed and performance.  
 
-💡 Why Aisle Boost?
+## 💡 Why Aisle Boost?
 
-Tired of flat, boring online stores? Aisle Boost brings the excitement of a real-world vending machine into the digital space, offering a visually engaging and interactive experience.
+Tired of flat, boring online stores? Aisle Boost brings the **excitement of a real-world vending machine** into the digital space, offering a visually engaging and interactive experience.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Three.js – Bringing the 3D magic to life
+- **React (Create React App)** – Front-end framework for a dynamic UI  
+- **Material-UI (MUI)** – Modern and responsive UI components  
+- **React Router** – Seamless navigation experience  
+- **Vercel** – Fast and reliable deployment  
 
-React + Vite – For a fast and dynamic front-end
+## 🚀 Future Enhancements
 
-Node.js + Express – Backend magic powering the vending system
+🔹 AI-powered shopping assistant 🤖  
+🔹 More vending machine items 🎁  
+🔹 Full 3D convenience store experience 🏪  
+🔹 Augmented Reality (AR) integration 📱  
 
-MongoDB – Secure and scalable product storage
-
-Vercel – Fast and reliable deployment
-
-🚀 Future Enhancements
-
-🔹 AI-powered shopping assistant 🤖🔹 More vending machine items 🎁🔹 Full 3D convenience store experience 🏪🔹 Augmented Reality (AR) integration 📱
-
-🏁 Getting Started
+## 🏁 Getting Started
 
 Clone the repository and install dependencies:
-
+```bash
 git clone https://github.com/your-repo/aisle-boost.git
 cd aisle-boost
 npm install
 npm run dev
+```
+Then, open `http://localhost:3000/` in your browser and start shopping in 3D!
 
-Then, open http://localhost:3000/ in your browser and start shopping in 3D!
+## 🤝 Contribute
 
-🤝 Contribute
+We love contributions! If you're passionate about 3D web experiences, AI assistants, or interactive UI design, join us in making **Aisle Boost** even better. 
 
-We love contributions! If you're passionate about 3D web experiences, AI assistants, or interactive UI design, join us in making Aisle Boost even better.
+### ⭐ Star this repo if you love it!
 
-⭐ Star this repo if you love it!
+Let’s build the **future of online vending** together! 🚀
 
-Let’s build the future of online vending together! 🚀
